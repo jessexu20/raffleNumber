@@ -1,0 +1,31 @@
+#output {
+  
+  padding: 20px;
+  background: gray;
+  border-radius: 10px;
+  font-size: 80px;
+  width: 300px;
+  color: white;
+  flex-direction: row;
+
+}
+.root {
+  margin:20px;
+}
+.btn {
+  border: 1px;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+/* On mouse-over */
+.btn:hover {
+  background: #eee;
+}
+
+.draw {
+  color: green;
+}
